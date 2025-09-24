@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "html5ever",
+    "markup5ever", 
+    "match_token",
+    "rcdom",
+    "web_atoms",
+    "xml5ever"
+]
+resolver = "2"
