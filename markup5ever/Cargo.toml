@@ -14,7 +14,6 @@ rust-version = "1.85.0"
 path = "lib.rs"
 
 [dependencies]
-web_atoms = { path = "../web_atoms" }
+web_atoms = { git = "https://github.com/cyrup-ai/html5ever" }
 tendril = "0.4.3"
 log = "0.4.28"
-zeroshot-workspace-hack = { version = "0.1", path = "../../../workspace-hack" }

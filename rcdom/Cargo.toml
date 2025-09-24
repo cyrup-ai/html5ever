@@ -40,15 +40,11 @@ serde_json = "1.0.145"
 env_logger = "0.11.8"
 
 [dependencies.html5ever]
-path = "../html5ever"
+git = "https://github.com/cyrup-ai/html5ever"
 
 [dependencies.markup5ever]
-path = "../markup5ever"
+git = "https://github.com/cyrup-ai/html5ever"
 version = "0.35.0"
 
 [dependencies.xml5ever]
-path = "../xml5ever"
-
-[dependencies.zeroshot-workspace-hack]
-version = "0.1"
-path = "../../../workspace-hack"
+git = "https://github.com/cyrup-ai/html5ever"
