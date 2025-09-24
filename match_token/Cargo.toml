@@ -1,0 +1,19 @@
+[package]
+name = "match_token"
+description = "Procedural macro for html5ever."
+documentation = "https://docs.rs/match_token"
+version = "0.1.0"
+license = "MIT OR Apache-2.0"
+authors = ["html5ever project"]
+repository = "https://github.com/servo/html5ever"
+edition = "2024"
+rust-version = "1.85.0"
+
+[dependencies]
+syn = { version = "2.0.106", features = ["full"] }
+quote = "1.0.40"
+proc-macro2 = "1.0.101"
+zeroshot-workspace-hack = { version = "0.1", path = "../../../workspace-hack" }
+
+[lib]
+proc-macro = true

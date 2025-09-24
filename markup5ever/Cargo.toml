@@ -1,0 +1,20 @@
+[package]
+name = "markup5ever"
+description = "Common code for xml5ever and html5ever"
+documentation = "https://docs.rs/markup5ever"
+categories = [ "parser-implementations", "web-programming" ]
+version = "0.35.0"
+license = "MIT OR Apache-2.0"
+authors = ["html5ever project"]
+repository = "https://github.com/servo/html5ever"
+edition = "2024"
+rust-version = "1.85.0"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+web_atoms = { path = "../web_atoms" }
+tendril = "0.4.3"
+log = "0.4.28"
+zeroshot-workspace-hack = { version = "0.1", path = "../../../workspace-hack" }

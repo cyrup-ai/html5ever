@@ -1,0 +1,36 @@
+[[bench]]
+name = "xml5ever"
+harness = false
+
+[package]
+name = "xml5ever"
+authors = [ "The xml5ever project developers",]
+description = "Push based streaming parser for XML."
+documentation = "https://docs.rs/xml5ever"
+homepage = "https://github.com/servo/html5ever/blob/main/xml5ever/README.md"
+readme = "README.md"
+keywords = [ "xml", "xml5", "parser", "parsing",]
+exclude = [ "xml5lib-tests/*",]
+categories = [ "parser-implementations", "web-programming",]
+version = "0.18.1"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/servo/html5ever"
+edition = "2024"
+rust-version = "1.85.0"
+
+[features]
+trace_tokenizer = []
+
+[dependencies]
+log = "0.4.28"
+
+[dev-dependencies]
+criterion = "0.7.0"
+
+[dependencies.markup5ever]
+path = "../markup5ever"
+version = "0.35.0"
+
+[dependencies.zeroshot-workspace-hack]
+version = "0.1"
+path = "../../../workspace-hack"

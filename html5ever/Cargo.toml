@@ -1,0 +1,36 @@
+[[bench]]
+name = "html5ever"
+harness = false
+
+[package]
+name = "html5ever"
+description = "High-performance browser-grade HTML5 parser"
+documentation = "https://docs.rs/html5ever"
+categories = [ "parser-implementations", "web-programming",]
+keywords = [ "html", "html5", "parser", "parsing",]
+readme = "../README.md"
+version = "0.35.0"
+license = "MIT OR Apache-2.0"
+authors = [ "html5ever project",]
+repository = "https://github.com/servo/html5ever"
+edition = "2024"
+rust-version = "1.85.0"
+
+[features]
+trace_tokenizer = []
+
+[dependencies]
+match_token = { path = "../match_token" }
+log = "0.4.28"
+
+[dev-dependencies]
+criterion = "0.7.0"
+typed-arena = "2.0.2"
+
+[dependencies.markup5ever]
+path = "../markup5ever"
+version = "0.35.0"
+
+[dependencies.zeroshot-workspace-hack]
+version = "0.1"
+path = "../../../workspace-hack"
