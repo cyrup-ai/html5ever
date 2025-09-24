@@ -1,0 +1,10 @@
+/Volumes/samsung_t9/html5ever/html5ever/target/debug/deps/markup5ever-fc7ee75487ca60a1.d: /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/lib.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/interface/mod.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/interface/tree_builder.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/serialize.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/util/buffer_queue.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/util/smallcharset.rs
+
+/Volumes/samsung_t9/html5ever/html5ever/target/debug/deps/libmarkup5ever-fc7ee75487ca60a1.rmeta: /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/lib.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/interface/mod.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/interface/tree_builder.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/serialize.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/util/buffer_queue.rs /Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/util/smallcharset.rs
+
+/Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/lib.rs:
+/Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/interface/mod.rs:
+/Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/interface/tree_builder.rs:
+/Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/serialize.rs:
+/Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/util/buffer_queue.rs:
+/Users/davidmaple/.cargo/git/checkouts/html5ever-7520a262b0a0ca6e/e90f469/markup5ever/util/smallcharset.rs:
