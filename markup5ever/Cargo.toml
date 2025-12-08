@@ -16,4 +16,4 @@ path = "lib.rs"
 [dependencies]
 web_atoms = { git = "https://github.com/cyrup-ai/html5ever", branch = "main" }
 tendril = "0.4.3"
-log = "0.4.28"
+log = "0.4.29"

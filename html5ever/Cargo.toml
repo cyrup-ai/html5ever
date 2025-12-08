@@ -21,7 +21,7 @@ trace_tokenizer = []
 
 [dependencies]
 match_token = { git = "https://github.com/cyrup-ai/html5ever" }
-log = "0.4.28"
+log = "0.4.29"
 
 [dev-dependencies]
 criterion = "0.7.0"

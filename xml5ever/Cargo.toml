@@ -22,7 +22,7 @@ rust-version = "1.85.0"
 trace_tokenizer = []
 
 [dependencies]
-log = "0.4.28"
+log = "0.4.29"
 
 [dev-dependencies]
 criterion = "0.7.0"
